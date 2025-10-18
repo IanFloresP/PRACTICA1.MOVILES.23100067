@@ -90,7 +90,7 @@ fun CatalogScreen(navController: NavController) {
                 onClick = { navController.navigate("home") },
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             ) {
-                Text("Volver al menú principal"
+                Text("Volver al menú principal")
             }
         }
     }
