@@ -10,6 +10,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import android.widget.Toast
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CalculatorWaterScreen(navController: NavController) {
     val context = LocalContext.current
